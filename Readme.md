@@ -12,7 +12,7 @@ WebKnights was inspired by a love for programming and a love for fun. Honestly s
 
 ![Title Screen](http://xdfty37dr3.bugs3.com/shot1.png "Title screen")
 
-![Koding](https://koding.com/a/site.landing/images/slideshow/2x/ss-ide.png "Koding")
+![Sample Interactions](http://xdfty37dr3.bugs3.com/shot2.png "Sample Interactions")
 
 ## APIs used
 
