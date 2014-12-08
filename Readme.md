@@ -10,7 +10,7 @@ WebKnights was inspired by a love for programming and a love for fun. Honestly s
 
 ## Screenshots
 
-[![WebKnight Logor](http://regiostech.koding.io/images/shot1.png "WebKnight: Rowan's Tale")](https://regiostech.koding.io)
+![Title Screen](http://xdfty37dr3.bugs3.com/shot1.png "Title screen")
 
 ![Koding](https://koding.com/a/site.landing/images/slideshow/2x/ss-ide.png "Koding")
 
