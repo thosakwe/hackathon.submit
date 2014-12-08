@@ -10,7 +10,7 @@ WebKnights was inspired by a love for programming and a love for fun. Honestly s
 
 ## Screenshots
 
-![Title Screen](http://gyazo.com/b23f9031d452229b0f84bc884acdc666 "Title Screen")
+![Title Screen](images/shot1.png "Title Screen")
 ![Koding](https://koding.com/a/site.landing/images/slideshow/2x/ss-ide.png "Koding")
 
 ## APIs used
