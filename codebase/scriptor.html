@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Scriptor</title>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css" rel="stylesheet">
+        
+        <script type="text/javascript" src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="http://cdn.gamequeryjs.com/jquery.gamequery.min.js"></script>
+        <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js" type="text/javascript"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/languages/javascript.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="../scripts/scriptor.js"></script>
+        <style>
+            #scr{
+                color: #1e4358;
+                height: 85%;
+                width: 100%;
+            }
+            
+            #sub{
+                background-color: #1e4358;
+                border-radius: 5px;
+                bottom: 0;
+                color: white;
+                height: 15%;
+                padding: 5px;
+                width: 100%;
+            }
+            
+            body, html {
+                background-color: #3c8db;
+                font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                font-size: 14px;
+                height: 98%;
+                line-height: 1.428571429;
+                width: 100%;
+            }
+        </style>
+        <script>
+        hljs.initHighlightingOnLoad();
+        $('textarea').each(function(i, block) {
+          hljs.highlightBlock(block);
+        });
+        
+        function Exec(func){
+            $("button").click(function(){
+                ScriptNotify($('#scr').val());
+                func();
+                $("#button").attr("onclick", "ScriptNotify($('#scr').val());");
+            })
+            .attr("onclick", "");
+            //func();
+        }
+        
+        var exec = this.Exec;
+        </script>
+        
+    </head>
+    <body>
+        <textarea id="scr"></textarea>
+        <br />
+        <button class="btn" id="sub" onclick="ScriptNotify($('#scr').val());">Submit</button>
+    </body>
+</html>

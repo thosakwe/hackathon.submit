@@ -1,0 +1,156 @@
+/*
+
+WebKnight: Rowan's Tale - CSS
+
+Tobe Osakwe - 2014 - All rights reserved.reserved
+
+All styles are in alphabetical order for easy reading.reading
+
+Styles are ordered as follows:
+
+    ~ Anchors, Classes, Elements
+    ~ CSS selectors are added in alphabetical order, and follow the style(s) of the type(s) which they extend, if any.
+    ~ In case a style applies to both an anchor and a class, or to both a class and an element, or an anchor to an element,
+      all anchors are written first, in alphabetical order, followed by alphabetically-ordered classes, which are followed
+      by alphabetically-ordered elements.
+      
+Happy reading!
+
+*/
+
+/* Anchor Styles */
+
+#bg-lvl1{
+    background-image: url("../images/dark.jpg");
+    border-radius: 1em;
+    height: 100%;
+    width: 100%;
+}
+
+#dragon{
+    display: none;
+}
+
+#playground{
+    border-radius: 1em;
+}
+
+#thanks, #title-screen{
+    background: linear-gradient(#3c8dbc, #1e4358);
+    border-radius: 1em;
+    height: 100%;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+}
+
+/* End of Anchor Styles */
+
+/* Class Styles */
+
+.blacked-out{
+    background-color: black;
+    color: white;
+}
+
+.bottom{
+    bottom: 0;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    position: absolute;
+    right: 0;
+}
+
+.btn-dialogue{
+    background-color: #1e4358;
+    bottom: 0.5em;
+    color: white;
+    float: right;
+    right: 0.5em;
+}
+
+.btn-dialogue:active, .btn-dialogue:focus, .btn-dialogue:hover{
+    background-color: #3c8dbc;
+    color: white;
+}
+
+.btn-x-lg{
+    line-height: 3em;
+    width: 15em;
+}
+
+.dialogue{
+    color: #3c8dbc;
+    display: none; /* So that they can faded in :) */
+    float: right;
+    font-size: large;
+    height: 100px;
+    margin-right: 1em;
+    margin-top: 1em;
+    width: 40%;
+}
+
+.dialogue .dialogue-body{
+    background-color: white;
+    border-radius: 0px 0px 1em 1em;
+    min-height: 4em;
+    padding: 1em;
+    width: 100%;
+}
+
+.dialogue .dialogue-header{
+    border-radius: 1em 1em 0px 0px;
+    background-color: #1e4358;
+    color: white;
+    min-height: 2em;
+    padding: 5px;
+    text-indent: 1em;
+    width: auto;
+}
+
+.gQ_sprite{
+    left: 0px;
+}
+
+.loading-screen{
+    background-color: purple;
+    color: white;
+    height: 100%;
+    padding: 1em;
+    text-align: center;
+}
+
+.loading-screen h1{
+    color: white;
+    text-align: center;
+}
+
+.loading-screen h1 i{
+    margin: auto;
+    text-align: center;
+}
+
+.navbar-header, .navbar-webknight{
+    background-color: purple;
+    color: white;
+}
+
+.whitetext{
+    color: white;
+}
+
+/* End of Class Styles */
+
+/* Element Styles */
+
+level{
+    color: white;
+    font-size: xx-large;
+    margin-left: 1em;
+}
+
+level:before{
+    content: "Level ";
+}
+
+/* End of Element Styles */
